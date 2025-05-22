@@ -1,4 +1,4 @@
-import myImage from '@/assets/profil.jpg'; // Uncomment and use if you want to import as a module
+import myImage from '@/assets/cam.jpeg'; // Uncomment and use if you want to import as a module
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"; // Assuming you might upload an image
 import { cvData } from '@/cv-data';
 import { UserCircle } from 'lucide-react'; // Fallback icon
