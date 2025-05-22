@@ -10,6 +10,9 @@ Bienvenue sur mon portfolio en ligne ! Ce site présente mon parcours académiqu
 
 🔗 [Voir le site en ligne](https://pthiam1.github.io/THIAM_papa_Portfolio/)
 
+##  Aperçu
+![alt text](src/assets/image-1.png)
+
 ---
 
 ## Fonctionnalités
