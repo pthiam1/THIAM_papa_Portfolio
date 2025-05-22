@@ -219,12 +219,14 @@ export const cvData: CvData = {
       name: "Développement IoT – Surveillance Température & Humidité",
       description: "Conception d'un système de surveillance de température et d'humidité avec envoi de notifications par SMS.",
       technologies: ["Arduino", "ESP32", "LCD", "CNI", "CNY70", "WEBSERVER"],
+      year: "2023",
       company: "Projet Académique/Personnel"
     },
     {
       name: "Plateforme de vente de plans de maison",
       description: "Conception d'une plateforme de vente de plans de maison en ligne avec paiement sécurisé.",
-      technologies: ["VueJS", "NodeJS", "Express", "MongoDB", "Stripe"],
+      technologies: ["Symfony", "API REST", "PostgreSQL", "HTML", "CSS", "JavaScript"],
+      year: "2022",
       company: "Projet Académique/Personnel"
     },
     {
