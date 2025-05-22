@@ -1,77 +1,46 @@
-<<<<<<< HEAD
-# THIAM_papa_Portfolio
-=======
-# Welcome to your Lovable project
+# THIAM Papa – Portfolio Personnel
 
-## Project info
+Bienvenue sur mon portfolio en ligne ! Ce site présente mon parcours académique, mes projets personnels et académiques, mes compétences techniques, ainsi que mes expériences professionnelles.
 
-**URL**: https://lovable.dev/projects/ae1c1e40-77d7-4f70-b00d-683d34a5ae6a
+> Réalisé avec **React**, **TypeScript**, **Tailwind CSS**, **Vite** et hébergé via **GitHub Pages**.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+##  Accès en ligne
 
-**Use Lovable**
+🔗 [Voir le site en ligne](https://pthiam1.github.io/THIAM_papa_Portfolio/)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ae1c1e40-77d7-4f70-b00d-683d34a5ae6a) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Fonctionnalités
 
-**Use your preferred IDE**
+- Page d’accueil avec avatar, titre et citation
+- Compétences techniques par domaine
+- Projets académiques et personnels (IoT, web, mobile)
+- Expériences professionnelles
+- Formulaire de contact
+- Design moderne **noir & jaune**, responsive
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+##  Technologies utilisées
 
-Follow these steps:
+| Frontend     | Outils         | Autres             |
+|--------------|----------------|--------------------|
+| React 19     | Vite           | Git & GitHub       |
+| TypeScript   | Tailwind CSS   | Lucide Icons       |
+| React Router | Shadcn/ui      | gh-pages (déploiement) |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+##  Lancer le projet en local
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/pthiam1/THIAM_papa_Portfolio.git
+cd THIAM_papa_Portfolio
+npm install
 npm run dev
+
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ae1c1e40-77d7-4f70-b00d-683d34a5ae6a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
->>>>>>> 438b202 (thiam papa web profil)
+## Auteur
+👤 **Papa THIAM**
