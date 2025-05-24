@@ -32,7 +32,7 @@ const HomePage: React.FC = () => {
       {/* téléchargement du CV(xt....m) */}
       <div className="mt-8">
       <a
-        href="docs/CV_THIAM_PAPA.pdf"
+        href="CV_THIAM_PAPA.pdf"
         download
         className="inline-flex items-center px-6 py-3 bg-yellow-400 text-gray-900 font-semibold rounded-lg hover:bg-yellow-500 transition-colors"
         onClick={() => {
