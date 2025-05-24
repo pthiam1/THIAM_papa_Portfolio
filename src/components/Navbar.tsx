@@ -1,4 +1,4 @@
-import { Briefcase, Home, Lightbulb, Mail, Puzzle } from 'lucide-react'; // Ensured Puzzle is used
+import { Briefcase, GraduationCap, Home, Lightbulb, Mail, Puzzle } from 'lucide-react';
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
@@ -10,6 +10,7 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { to: "/", label: "Accueil", icon: Home },
+  { to: "/education", label: "Formation", icon: GraduationCap }, // Ensure GraduationCap is imported
   { to: "/skills", label: "Compétences", icon: Lightbulb },
   { to: "/projects", label: "Projets", icon: Puzzle }, // Ensured Puzzle is used
   { to: "/experience", label: "Expérience", icon: Briefcase },
