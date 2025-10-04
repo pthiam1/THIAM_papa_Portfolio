@@ -13,6 +13,7 @@ import HomePage from "./pages/HomePage"; // Renamed Index
 import NotFound from "./pages/NotFound";
 import ProjectsPage from "./pages/ProjectsPage"; // New Page
 import SkillsPage from "./pages/SkillsPage"; // New Page
+import TransversalSkillsPage from "./pages/TransversalSkillsPage"; // New Page
 
 const queryClient = new QueryClient();
 
@@ -27,6 +28,7 @@ const App = () => (
             <Route path="/" element={<HomePage />} />
             <Route path="/education" element={<EducationPage />} />
             <Route path="/skills" element={<SkillsPage />} />
+            <Route path="/transversal-skills" element={<TransversalSkillsPage />} />
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/experience" element={<ExperiencePage />} />
             <Route path="/contact" element={<ContactPage />} />

@@ -1,8 +1,27 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
+}
+
+/* Responsive adjustments */
+@media (min-width: 640px) {
+  #root {
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #root {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #root {
+    padding: 2.5rem;
+  }
 }
 
 .logo {
@@ -34,9 +53,58 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 1em;
+}
+
+@media (min-width: 768px) {
+  .card {
+    padding: 2em;
+  }
 }
 
 .read-the-docs {
   color: #888;
+}
+
+/* Amélioration générale de la responsivité */
+.responsive-text {
+  font-size: 0.875rem;
+}
+
+@media (min-width: 640px) {
+  .responsive-text {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .responsive-text {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .responsive-text {
+    font-size: 1.25rem;
+  }
+}
+
+/* Optimisation des grilles pour les petits écrans */
+@media (max-width: 640px) {
+  .grid {
+    gap: 1rem !important;
+  }
+}
+
+/* Amélioration du scroll sur mobile */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optimisation des cartes sur mobile */
+@media (max-width: 768px) {
+  .card-responsive {
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
 }
