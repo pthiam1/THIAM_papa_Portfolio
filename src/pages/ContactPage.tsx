@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { cvData } from '@/cv-data';
 import { 
@@ -127,10 +126,29 @@ const ContactMethod = ({
 };
 
 const ContactForm = () => {
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    alert("Merci pour votre message ! Malheureusement, Mr THIAM n'a pas encore mis en place de système de contact.");
-    (event.target as HTMLFormElement).reset();
+  const FORMSPREE_ENDPOINT = "https://formspree.io/f/xanppdpb";
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const form = e.target as HTMLFormElement;
+    const formData = new FormData(form);
+
+    const resp = await fetch(FORMSPREE_ENDPOINT, {
+      method: "POST",
+      headers: {
+        Accept: "application/json"
+      },
+      body: formData
+    });
+
+    if (resp.ok) {
+      alert("Message envoyé — merci !");
+      alert("Je vous répondrai dans les plus brefs délais.");
+      form.reset();
+    } else {
+      const data = await resp.json().catch(() => ({}));
+      alert("Erreur envoi message : " + (data.error || resp.statusText));
+    }
   };
 
   return (
